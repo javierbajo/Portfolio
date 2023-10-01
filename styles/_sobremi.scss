@@ -1,0 +1,25 @@
+/* Sobre mí */
+.sobre-mi{
+    height: 600px;
+    padding: 10px;
+}
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+.sobre-mi .contenedor p{
+    text-align:justify;
+}
+
+@media screen and (max-width: 700px){
+    .seccion-texto{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .seccion-texto{
+        margin: 0 8%;
+        margin-bottom: 20%;
+    }
+}

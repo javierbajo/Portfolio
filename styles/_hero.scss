@@ -1,0 +1,24 @@
+/* Sección hero */
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align:center;
+}
+.hero-principal{
+    padding: 3rem;
+}
+.hero-imagen-desarrollador{
+    width: 400px;
+    object-fit: cover;
+    margin: 20px;
+}
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+}
+.gallery-overlay span{
+    position: relative;
+}
+
+@import "galeria-superior-hero";
+@import "galeria-inferior-hero";

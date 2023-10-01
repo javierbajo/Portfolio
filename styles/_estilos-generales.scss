@@ -1,0 +1,41 @@
+/* Estilos generales */
+
+$fondo-oscuro: #1b1b32;
+$fondo-claro: #fff;
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 8.5rem;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+.seccion-oscura{
+    color: white;
+    background-color: $fondo-oscuro;
+}
+.seccion-clara{
+    color: black;
+    background-color: $fondo-claro;
+}
+.seccion-titulo{
+    font-size: 5rem;
+    padding: 15px 0;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+.seccion-texto{
+    font-size: 1.2rem;
+}
+.texto-negro{
+    color: black;
+}
+.texto-blanco{
+    color: white;
+}

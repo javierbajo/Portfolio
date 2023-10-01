@@ -1,0 +1,79 @@
+/* Carrusel */
+.proyectos-ingenieria{
+    padding: 40px 40px 80px 40px;
+}
+.proyectos-ingenieria .carousel{
+    max-width: 800px;
+}
+.carousel-item{
+    height: 500px;
+}
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.proyectos-ingenieria-texto{
+    max-width: 70%;
+    font-size: 25px;
+    text-align: center;
+    color: #f6f6f6;
+    text-shadow: #111 5px 3px 5px;
+}
+.proyectos-ingenieria-info{
+    font-weight: bold;
+    text-align: center;
+}
+.proyectos-ingenieria-info p{
+    margin-bottom: 0;
+}
+.cliente{
+    color: #b2dafa;
+    font-size: 1.5rem;
+    text-shadow: #111 5px 3px 5px;
+}
+.proyectos-ingenieria-footer .cliente{
+    font-size: 1.2rem;
+}
+.proyectos-ingenieria-info .cargo{
+    font-size: 1.5rem;
+    color: #b2dafa;
+    text-shadow: #111 5px 3px 5px;
+}
+.imagen-fondo1{
+    background-image: url("../images/Wikinger_vintage.jpg");
+    background-size: cover;
+}
+.imagen-fondo2{
+    background-image: url("../images/Ariane5_vintage2.png");
+    background-size: cover;
+}
+.imagen-fondo3{
+    background-image: url("../images/transportadores_vintage5.png");
+    background-size: cover;
+}
+.imagen-fondo4{
+    background-image: url("../images/seganosa_vintage1.png");
+    background-size: cover;
+}
+
+@media screen and (max-width: 500px){
+    .proyectos-ingenieria-info .cargo{
+        font-size: 1rem;
+        padding: 1%;
+    }
+    .proyectos-ingenieria-info .cliente{
+        font-size: 1rem;
+        padding: 1%;
+    }
+    .proyectos-ingenieria-texto{
+        font-size: 1rem;
+        padding: 1%;
+        margin-bottom: 15%;
+    }
+
+
+}

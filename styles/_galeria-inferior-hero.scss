@@ -1,0 +1,30 @@
+/* Sección hero galería inferior */
+.gallery-fsd{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 14.5rem);
+    gap: .1rem;
+}
+.gallery-image-fsd{
+    object-fit: fill;
+    width:100% ;
+    height:100% ;
+    align-items: center;
+    padding: 5px 5px;
+
+}
+.gallery-fsd-item-central{
+    grid-column: 1/6;
+    grid-row: 2/5;
+}
+// .prueba{
+//     writing-mode: vertical-lr;
+//     transform: rotate(180deg);
+// }
+
+@media screen and (max-width: 700px){
+    .gallery-fsd-item-text{
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+    }
+}

@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- iconos de bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/main.css" />
+    <!-- metadatos -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Javier Bajo" />
+    <meta name="description" content="Portfolio de Javi Bajo" />
+    <meta name="keywords" content="HTML, CSS, Bootstrap" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título -->
+    <title>Javi Bajo | Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./images/icon.svg" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="./images/icon.svg" width="50" alt="Icono del portfolio" />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#programacion">Programación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ingenieria">Ingeniería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Sección Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <!-- Galería superior-->
+        <div class="wrapper">
+          <div class="gallery">
+
+            <div class="gallery-item gallery-item-1">
+              <a class="gallery-link">
+                <img src="./images/FotoCv7.png" alt="" class="gallery-image">
+                <!-- <div class="gallery-overlay">
+                  <span>Este soy yo</span>
+                </div> -->
+              </a>
+            </div>
+
+            <div class="gallery-item gallery-item-2">
+              <a class="gallery-link">
+                <img src="./images/wallpaperEngineering2.jpg" alt="" class="gallery-image">
+                <div class="gallery-overlay">
+                  <span>Diseño <br>mecánico</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-item gallery-item-3">
+              <a class="gallery-link">
+                <img src="./images/wallpaperMaths1.jpeg" alt="" class="gallery-image">
+                <div class="gallery-overlay">
+                  <span>Cálculo</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-item gallery-item-4">
+              <a class="gallery-link">
+                <img src="./images/wallpaperFiremen2.jpg" alt="" class="gallery-image">
+                <div class="gallery-overlay">
+                  <span>Simuladores <br>emergencias</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-item gallery-item-5">
+              <a class="gallery-link">
+                <img src="./images/wallpaperElectronics1.jpg" alt="" class="gallery-image">
+                <div class="gallery-overlay">
+                  <span>Electrónica</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-item gallery-item-6">
+              <a class="gallery-link">
+                <img src="./images/wallpaperLaptop1.jpg" alt="" class="gallery-image">
+                <div class="gallery-overlay">
+                  <span>Desarrollo de <br>aplicaciones</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-item gallery-item-7">
+              <a class="gallery-link">
+                <img src="./images/wallpaperProgrammer2.jpg" alt="" class="gallery-image">
+                <div class="gallery-overlay">
+                  <span>Full Stack <br>Developer</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-item gallery-item-8">
+              <a class="gallery-link">
+                <img src="./images/wallpaperWikinger5.jpg" alt="" class="gallery-image">
+                <div class="gallery-overlay">
+                  <span>Ingeniería <br>naval</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-item gallery-item-9">
+              <a class="gallery-link">
+                <img src="./images/wallpaperAriane1.jpg" alt="" class="gallery-image">
+                <div class="gallery-overlay">
+                  <span>Ingeniería <br>aerospacial</span>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <!-- <img class="hero-imagen-desarrollador rounded-circle" src="./images/FotoCv7.png" alt="Foto de Javi Bajo"/> -->
+        <h1>Javi Bajo</h1>
+        <h2>Full Stack Developer | Ingeniero Industrial Mecánico-Electrónico</h2>
+      </div>
+      <!-- Galería Hero Inferior -->
+      <div class="hero-inferior">
+        <div class="wrapper">
+          <div class="gallery-fsd">
+            
+            <div class="gallery-fsd-item">
+              <a class="gallery-link">
+                <img src="./images/logos/Html.svg" alt="" class="gallery-image-fsd">
+                <div class="gallery-overlay">
+                  <span class="gallery-fsd-item-text">HTML5</span>
+                </div>
+            </a>
+            </div>
+
+            <div class="gallery-fsd-item">
+              <a class="gallery-link">
+                <img src="./images/logos/MongoBD_2.svg" alt="" class="gallery-image-fsd">
+                <div class="gallery-overlay">
+                  <span class="gallery-fsd-item-text">MongoDB</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-fsd-item">
+              <a class="gallery-link">
+                <img src="./images/logos/css3.svg" alt="" class="gallery-image-fsd">
+                <div class="gallery-overlay">
+                  <span class="gallery-fsd-item-text">CSS3</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-fsd-item">
+              <a class="gallery-link">
+                <img src="./images/logos/Node.svg" alt="" class="gallery-image-fsd">
+                <div class="gallery-overlay">
+                  <span class="gallery-fsd-item-text">Node</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-fsd-item">
+              <a class="gallery-link">
+                <img src="./images/logos/js.svg" alt="" class="gallery-image-fsd">
+                <div class="gallery-overlay">
+                  <span class="gallery-fsd-item-text">JavaScript</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-fsd-item gallery-fsd-item-central">
+              <a class="gallery-link">
+                <img src="./images/wallpaperLaptop3.jpeg" alt="" class="gallery-image">
+                <div class="gallery-overlay">
+                  <span >Full Stack Developer</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-fsd-item">
+              <a class="gallery-link">
+                <img src="./images/logos/MySQL.svg" alt="" class="gallery-image-fsd">
+                <div class="gallery-overlay">
+                  <span class="gallery-fsd-item-text">MySQL</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-fsd-item">
+              <a class="gallery-link">
+                <img src="./images/logos/React.svg" alt="" class="gallery-image-fsd">
+                <div class="gallery-overlay">
+                  <span class="gallery-fsd-item-text">React</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-fsd-item">
+              <a class="gallery-link">
+                <img src="./images/logos/Angular.svg" alt="" class="gallery-image-fsd">
+                <div class="gallery-overlay">
+                  <span class="gallery-fsd-item-text">Angular</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-fsd-item">
+              <a class="gallery-link">
+                <img src="./images/logos/php.svg" alt="" class="gallery-image-fsd">
+                <div class="gallery-overlay">
+                  <span class="gallery-fsd-item-text">PHP</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-fsd-item">
+              <a class="gallery-link">
+                <img src="./images/logos/symfony.svg" alt="" class="gallery-image-fsd">
+                <div class="gallery-overlay">
+                  <span class="gallery-fsd-item-text">Symfony</span>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- <img class="hero-inferior-imagen img-fluid" src="./images/hero-inferior.svg" alt="Ordenador, logos HTML, CSS, JavaScript, React"/> -->
+      </div>
+    </section>
+    <!-- Sobre mí -->
+    <section id="sobre-mi"class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo texto-blanco">Sobre mí</h2>
+        <p class="seccion-texto">
+          Apasionado de la innovación y de las nuevas tecnologías, siempre en formación continua, buscando nuevas experiencias y expandir horizontes. <br><br>
+          Ingeniero industrial, máster en mecatrónica (mecánica-electrónica), embarcado en esta nueva apasionante aventura del desarrollo full-stack. Amplia experiencia profesional tanto en el área técnica como dirigiendo equipos en proyectos internacionales en sectores tan dispares como maquinaria naval, producción y logística en automoción, aerospacial, e ingeniería civil. <br><br>
+          Competencia profesional completa en inglés, francés y alemán.
+        </p>
+      </div>
+    </section>
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo web -->
+          <div class="columna col-12  col-lg-4" >
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo web</p>
+            <p>
+              Recién terminado bootcamp intensivo Full Stack Developer de 5
+              meses en academia UpgradeHub. Buscando complementar mis
+              conocimientos de programación y abrir nuevos horizontes, en el
+              marco del desarrollo personal y profesional, persiguiendo la
+              excelencia.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">NodeJs</span>
+              <span class="badge text-bg-primary">MongoDB</span>
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">Angular</span>
+              <span class="badge text-bg-primary">MySQL</span>
+              <span class="badge text-bg-primary">PHP</span>
+              <span class="badge text-bg-primary">Symfony</span>
+            </div>
+          </div>
+          <!-- Ingeniería -->
+          <div class="columna col-12 col-lg-4">
+            <i class="bi bi-gear"></i>
+            <p class="experiencia-titulo">Ingeniería</p>
+            <p>
+              Ingeniero industrial senior con especialidad en mecánica y
+              electrónica (mecatrónica), con más de 10 años de experiencia en el
+              mundo laboral en diferentes países y proyectos, en industria
+              aerospacial, naval, automoción y obra civil. Tres años viviendo en
+              Francia y uno en Alemania.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">SolidWorks</span>
+              <span class="badge text-bg-primary">Catia</span>
+              <span class="badge text-bg-primary">ANSYS</span>
+              <span class="badge text-bg-primary">Autocad</span>
+              <span class="badge text-bg-primary">C++</span>
+              <span class="badge text-bg-primary">Python</span>
+              <span class="badge text-bg-primary">Angular</span>
+              <span class="badge text-bg-primary">Step7</span>
+              <span class="badge text-bg-primary">TwinCat</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-lg-4">
+            <i class="bi bi-book"></i>
+            <p class="experiencia-titulo">Formación</p>
+            <p>
+              Ingeniero Industrial por la universidad de Valladolid (2012),
+              máster en mecatrónica por la universidad de Vigo (2016), Título
+              bootcamp Full Stack Developer en UpgradeHub (2023). Competencia
+              profesional completa en inglés, francés y alemán.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Full Stack Developer</span>
+              <span class="badge text-bg-primary">Ingeniero Industrial</span>
+              <span class="badge text-bg-primary">Máster Mecatrónica</span>
+              <span class="badge text-bg-primary">Inglés</span>
+              <span class="badge text-bg-primary">Francés</span>
+              <span class="badge text-bg-primary">Alemán</span>
+              <span class="badge text-bg-primary">GWO</span>
+              <span class="badge text-bg-primary">Máster PRL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Proyectos programación -->
+    <section id="programacion" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos de aplicaciones web</h2>
+      <h3 class="seccion-descripcion">
+        Estos son algunos proyectos que he creado recientemente
+      </h3>
+      <!-- Galería de proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto1.jpg" alt="Imagen proyecto 1" />
+              <div class="overlay">
+                <p>Pokedex-Js</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/javierbajo/PokeProject"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://poke-project-two.vercel.app/"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+                <div class="iconos-contenedor"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto2.jpg" alt="Imagen proyecto 2" />
+              <div class="overlay">
+                <p>Fruits-React</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/javierbajo/REACT-PROJECT-FRUTAS"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://react-project-frutas.vercel.app/"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+                <div class="iconos-contenedor"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto3.jpg" alt="Imagen proyecto 3" />
+              <div class="overlay">
+                <p>Shoes-Angular</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/javierbajo/ANGULAR-PROJECT-ZAPATILLAS"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://angular-project-zapatillas.vercel.app/"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+                <div class="iconos-contenedor"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto4.jpg" alt="Imagen proyecto 4" />
+              <div class="overlay">
+                <p>API Cinema<br>Node-MongoDB</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/javierbajo/NODE-Servidor-Movies-II"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://node-servidor-movies-3w9loggwb-javierbajo.vercel.app/cinemas"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+                <div class="iconos-contenedor"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto5.jpg" alt="Imagen proyecto 5" />
+              <div class="overlay">
+                <p>Travel agency<br>React</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/javierbajo/REACT-VIAJES"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://react-viajes.vercel.app/"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+                <div class="iconos-contenedor"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto6.jpg" alt="Imagen proyecto 6" />
+              <div class="overlay">
+                <p>Real state<br>Symfony</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/javierbajo/SYMFONY-PROJECT-INMOBILIARIA"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://www.google.com"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+                <div class="iconos-contenedor"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Proyectos ingeniería -->
+    <section id="ingenieria" class="proyectos-ingenieria seccion-clara">
+      <h2 class="seccion-titulo">Proyectos de ingeniería</h2>
+      <h3 class="seccion-descripcion">A continuación mis proyectos más destacados de ingeniería</h3>
+
+      <!-- Carrusel -->
+      <div id="proyectos-ingenieria-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="container imagen-fondo1">
+              <p class="proyectos-ingenieria-texto">Desde industrias FERRI, fui destinado a Dinamarca y el norte de Alemania para gestionar la instalación y puesta en marcha de nuestros equipos en el proyecto Wikinger de Iberdrola. </p>
+              <div class="proyectos-ingenieria-info">
+                <p class="cliente">Proyecto Wikinger Iberdrola</p>
+                <p class="cargo">Manager de proyectos | Industrias FERRI</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container imagen-fondo2">
+              <!-- <img class="proyectos-ingenieria-imagen rounded-circle" src="./images/Foto_Sassnitz.jpg" alt="javierbajo"> -->
+              <p class="proyectos-ingenieria-texto">Diseño y simulación de componentes del sistema de inyección del propulsor de la lanzadera. Creación de herramientas de software de simulación. </p>
+              <div class="proyectos-ingenieria-info">
+                <p class="cliente">Lanzadera de satélites Ariane 5</p>
+                <p class="cargo">Ingeniero de control fluido motor | CNES París</p>
+              </div>
+            </div>  
+          </div>
+
+          <div class="carousel-item">
+            <div class="container imagen-fondo3">
+              <p class="proyectos-ingenieria-texto">Diseño, fabricación e instalación de soluciones integrales de logística en producción y fabricación de componentes. Diseño mecánico y programación de autómatas.</p>
+              <div class="proyectos-ingenieria-info">
+                <p class="cliente">Industria de automoción</p>
+                <p class="cargo">Ingeniero mecatrónico, manager de proyectos | Goycar Galicia</p>
+              </div>
+             </div> 
+          </div> 
+
+          <div class="carousel-item">
+            <div class="container imagen-fondo4">
+              <p class="proyectos-ingenieria-texto">Simuladores y campos de entrenamiento de emergencias. Escola de Mar (Faial, Azores), Ascó y Vandellós (Tarragona), Escuela Superior de Náutica Infante D'Henrique Oeiras (Lisboa). </p>
+              <div class="proyectos-ingenieria-info">
+                <p class="cliente">Ingeniería y obra civil</p>
+                <p class="cargo">Director del departamento de ingeniería | SEGANOSA</p>
+              </div>
+             </div> 
+          </div> 
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#proyectos-ingenieria-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#proyectos-ingenieria-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            Hablemos
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para iniciar tu proyecto de desarrollo web 
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:javier.bajo@bootcamp-upgrade.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-icono" src="./images/icon.svg" alt="Logo full stack developer">
+      <p class="footer-texto text-center">Aprendiendo e innovando todos los días.<br>
+        Avancemos juntos!
+      </p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">  
+        <a href="https://www.linkedin.com/in/javier-bajo/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://github.com/javierbajo" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+      </div>
+
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
